@@ -8,6 +8,7 @@ public class Operations {
 		new Operations().division();		
 		new Operations().sum(50,20);
 		new Operations().multiplicacion();
+		new Operations().subtract(12, 8);
 	}
 	
 	private void multiplicacion() {
