@@ -14,4 +14,10 @@ public class Operations {
 		result = num1 /  num2;
 		System.out.println("Outcome " + result);
 	}
+	private void sum()
+	{
+		int num1 = 20, num2 = 50, result = 0;
+		result = num1 + num2;
+		System.out.println("Outcome " + result);
+	}
 }
