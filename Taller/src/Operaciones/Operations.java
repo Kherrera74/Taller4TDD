@@ -10,7 +10,14 @@ public class Operations {
 		new Operations().multiplicacion();
 	}
 	
-	private void division() {
+	private void multiplicacion() {
+		int num1 = 3, num2 = 7;
+		result = num1 *  num2;
+		System.out.println("Outcome " + result);
+		
+	}
+
+	private void division() {  
 		int num1 = 100, num2 = 50;
 		System.out.println("dividend " + num1);
 		System.out.println("divider " + num2);
