@@ -2,11 +2,12 @@ package Operaciones;
 
 
 public class Operations {
-
+	private int result = 0;
 	public static void main (String arguments[]) {
-		private int result = 0;
+		
 		new Operations().division();		
-		new Operations().sum();
+		new Operations().sum(50,20);
+		new Operations().multiplicacion();
 	}
 	
 	private void division() {
