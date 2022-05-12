@@ -1,8 +1,11 @@
 package Operaciones;
-
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Operations {
 	private int result = 0;
+	private static final Logger LOGGER = Logger.getLogger(Operations.class.getName());
+	
 	public static void main (String arguments[]) {
 		
 		new Operations().division();		
@@ -25,9 +28,22 @@ public class Operations {
 		result = num1 /  num2;
 		System.out.println("Outcome " + result);
 	}
-	private void sum(int num1, int num2)
-	{		
+	
+	private void sum(int num1, int num2) {		
 		result = num1 + num2;
 		System.out.println("Outcome " + result);
+	}
+	
+	private Integer subtract(Integer firstValue, Integer lastValue) {
+		
+		result = firstValue - lastValue;
+		
+		LOGGER.log(Level.INFO, String.valueOf(firstValue)
+				.concat(" - ")
+				.concat(String.valueOf(lastValue))
+				.concat(" = ")
+				.concat(String.valueOf(result)));
+		
+		return result;
 	}
 }
