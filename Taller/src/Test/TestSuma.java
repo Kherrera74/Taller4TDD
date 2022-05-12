@@ -12,6 +12,8 @@ class TestSuma {
 
 	@Test
 	void test() {
+		Operations op = new Operations();
+		op.sum();
 		fail("Not yet implemented");
 	}
 
