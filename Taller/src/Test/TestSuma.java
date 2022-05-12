@@ -13,7 +13,7 @@ class TestSuma {
 	@Test
 	void test() {
 		Operations op = new Operations();
-		op.sum();
+		op.sum(50,20);
 		fail("Not yet implemented");
 	}
 
