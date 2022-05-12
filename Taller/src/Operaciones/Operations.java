@@ -34,7 +34,7 @@ public class Operations {
 		System.out.println("Outcome " + result);
 	}
 	
-	private Integer subtract(Integer firstValue, Integer lastValue) {
+	public Integer subtract(Integer firstValue, Integer lastValue) {
 		
 		result = firstValue - lastValue;
 		
